@@ -1,0 +1,20 @@
+
+<div id="wrapper">
+<table id="keywords" cellspacing="0" cellpadding="0">
+  <tr>
+    <th><span>From/To</span></th>
+    <th><span>Amount</span></th>
+    <th><span>Date</span></th>
+  </tr>
+
+<% @transactions.each do |transaction| %>
+  <tr>
+    <td class="lalign"><%= Account.find_by_id(transaction.second_account_id).name %></td>
+    <td class="lalign"><%= transaction.amount %></td>
+    <td class="lalign"><%= transaction.created_at %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Back', account_path %>
+</div>
