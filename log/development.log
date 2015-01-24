@@ -23118,3 +23118,347 @@ Served asset /transactions.js - 304 Not Modified (0ms)
 
 Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:15:14 -0400
 Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:43:52 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (1.9ms)
+  Rendered transactions/new.html.erb within layouts/application (12.4ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (50ms)  (pid 5080)
+Compiled application.css  (2ms)  (pid 5080)
+Completed 200 OK in 126.3ms (Views: 124.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:43:53 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:43:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:43:53 -0400
+Served asset /transactions.css - 200 OK (128ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:43:53 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:43:53 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:43:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:43:53 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:43:56 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:44:08 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.5ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (19.2ms)
+  Rendered transactions/new.html.erb within layouts/application (24.9ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (76ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 167.9ms (Views: 162.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /scaffolds.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /transactions.css - 200 OK (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:44:09 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:45:11 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (15.8ms)
+  Rendered transactions/new.html.erb within layouts/application (24.4ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (80ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 190.5ms (Views: 188.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /transactions.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:45:12 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:45:42 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (5.4ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (6.5ms)
+  Rendered transactions/new.html.erb within layouts/application (7.5ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (72ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 147.3ms (Views: 132.4ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /accounts.css - 304 Not Modified (122ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /transactions.css - 200 OK (6ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:45:43 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (17.9ms)
+  Rendered transactions/new.html.erb within layouts/application (27.0ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (65ms)  (pid 5080)
+Compiled application.css  (0ms)  (pid 5080)
+Completed 200 OK in 149.6ms (Views: 147.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /accounts.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /scaffolds.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /transactions.css - 200 OK (8ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /transactions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:46:11 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (11.9ms)
+  Rendered transactions/new.html.erb within layouts/application (23.2ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (77ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 191.2ms (Views: 175.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Served asset /accounts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Served asset /transactions.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:21 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:46:22 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:46:46 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.5ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (2.0ms)
+  Rendered transactions/new.html.erb within layouts/application (7.3ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (83ms)  (pid 5080)
+Compiled application.css  (0ms)  (pid 5080)
+Completed 200 OK in 276.1ms (Views: 255.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:46 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:46:46 -0400
+Served asset /transactions.css - 200 OK (39ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:47 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:47 -0400
+Served asset /accounts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:46:47 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:46:47 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 19:47:31 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (9.9ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (11.8ms)
+  Rendered transactions/new.html.erb within layouts/application (12.8ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (76ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 156.7ms (Views: 141.0ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /transactions.css - 200 OK (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 19:47:32 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
