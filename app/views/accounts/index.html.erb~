@@ -1,6 +1,6 @@
 <h1>Accounting Pro</h1>
 <div id="wrapper">
-<h1>Balance Sheet</h1>
+<h2>Balance Sheet</h2>
 
 <%= link_to 'New Account', new_account_path %>&nbsp|&nbsp
 <%= link_to 'New Transaction', new_transaction_path %>&nbsp|&nbsp

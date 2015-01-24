@@ -84,7 +84,7 @@ h1 {
 h2 {
   font-family: 'Tahoma';
   font-weight: bold;
-  font-size: 3.6em;
+  font-size: 3em;
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: center;
@@ -95,13 +95,14 @@ h2 {
 
 h3 {
   font-family: 'Tahoma';
-  font-weight: bold;
-  font-size: 3.0em;
-  line-height: 1.7em;
-  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin-bottom: 2px;
   text-align: left;
-  color: #158;
+  color: #146;
 }
+
 
 
 

@@ -15,7 +15,6 @@ class TransactionsController < ApplicationController
   def new
     @transaction = Transaction.new
     @accounts = Account.all
-    @direction_menu = [["From", "From"], ["To", "To"]]
     @account_menu = []
     @accounts.each do |account|
       @account_menu << [account.name, account.id]
@@ -26,7 +25,6 @@ class TransactionsController < ApplicationController
   def edit
     @transaction = Transaction.find_by_id(params[:id])
     @accounts = Account.all
-    @direction_menu = [["From", "From"], ["To", "To"]]
     @account_menu = []
     @accounts.each do |account|
       @account_menu << [account.name, account.id]
@@ -36,8 +34,12 @@ class TransactionsController < ApplicationController
 
   def create
     @valid = false
+   
+    if (Account.find_by_id(params[:transaction][:first_account_id])==Account.find_by_id(params[:transaction][:second_account_id]))
+        flash[:notice] = "From and To acccounts can't be the same!."
+        redirect_to :back
 
-    if ( ( (params[:transaction][:first_direction] == "From") and 
+    else if ( ( (params[:transaction][:first_direction] == "From") and 
         (Account.find_by_id(params[:transaction][:first_account_id]).amount.to_i < params[:transaction][:amount].to_i) ) or
         ((params[:transaction][:second_direction] == "From") and 
         (Account.find_by_id(params[:transaction][:second_account_id]).amount.to_i < params[:transaction][:amount].to_i)) )
@@ -49,6 +51,7 @@ class TransactionsController < ApplicationController
                                           params[:transaction][:second_account_id], 
                                           params[:transaction][:second_direction], 
                                           params[:transaction][:amount])
+    end
     if (@valid == true)
       @transaction = Transaction.new(params[:transaction])
       @transaction.save

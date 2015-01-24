@@ -1,19 +1,21 @@
 <h1>Accounting Pro</h1>
+
 <div id="wrapper">
 
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b><%= @transaction.first_direction %>: <b><%= @transaction.first_account_id %>
+  <h3>From: <%= @transaction.first_account_id %></h3>
 </p>
 
 <p>
-  <b><%= @transaction.second_direction %>: <b><%= @transaction.second_account_id %>
+  <h3>To: <%= @transaction.second_account_id %></h3>
 </p>
 
 <p>
-  <b>Amount:</b>
+  <h3>Amount:
   <%= @transaction.amount %>
+</h3>
 </p>
 
 
