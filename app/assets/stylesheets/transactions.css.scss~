@@ -70,7 +70,7 @@ h1 {
 #wrapper {
   display: block;
   width: 1000px;
-height: -1;
+height: 2000px;
   background: #eee;
   margin: 0 auto;
   padding: 10px 17px;

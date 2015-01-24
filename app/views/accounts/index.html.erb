@@ -6,16 +6,11 @@
 <%= link_to 'New Transaction', new_transaction_path %>
 <br/>
 <br/>
+<br/>
 
 <table id="keywords" cellspacing="1" cellpadding="1">
 
-  <tr>
-    <%= form_tag accounts_path, :id => "types_form", :method => :get do %>
-      <%= label_tag(:t, "Filter by account Type") %>
-      <%= select_tag(:account_type, options_for_select(@account_types, @selected)) %>
-      <%= submit_tag("Filter") %>
-    <% end %>
-  </tr>
+
 
   <tr>
     <th><span style="float:left;font-weight:bold;">Name</span></th>

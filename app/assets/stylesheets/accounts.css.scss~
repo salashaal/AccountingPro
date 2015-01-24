@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font: arial;
   vertical-align: baseline;
   outline: none;
   -webkit-font-smoothing: antialiased;
@@ -30,7 +30,7 @@ body {
   padding-bottom: 55px;
 }
 
-::selection { background: #5f74a0; color: #eee; }
+::selection { background: #5f74a0; color: #fff; }
 ::-moz-selection { background: #5f74a0; color: #fff; }
 ::-webkit-selection { background: #5f74a0; color: #fff; }
 
