@@ -1,9 +1,10 @@
 <h1>Accounting Pro</h1>
 <div id="wrapper">
-<h1>Edit Account</h1>
+<h2>Edit Account</h2>
 
 <%= render 'form' %>
 
 <%= link_to 'Show', @account %> |
-<%= link_to 'Cancel', :back %>
+<%= link_to 'Cancel', :back %>|
+<%= link_to 'Home', accounts_path %>
 </div>

@@ -1,11 +1,12 @@
 <h1>Accounting Pro</h1>
 <div id="wrapper">
 
-<h1>Edit Transaction</h1>
+<h2>Edit Transaction</h2>
 
 <%= render 'form' %>
 
 <%= link_to 'Show', @transaction %> |
-<%= link_to 'Cancel', :back %>
+<%= link_to 'Cancel', :back %>|
+<%= link_to 'Home', accounts_path %>
 
 </div>

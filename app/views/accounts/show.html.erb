@@ -3,20 +3,25 @@
 <h2>Account Details</h2>
 <p id="notice"><%= notice %></p>
 
+<h3>
 <p>
-  <b>Name:</b>
+  <h3> <b>Name:</b>
   <%= @account.name %>
+  </h3>
 </p>
 
 <p>
-  <b>Type:</b>
+  <h3> <b> Type: </b>
   <%= @account.accounttype %>
+  </h3>
 </p>
 
 <p>
-  <b>Amount:</b>
+  <h3> <b> Amount: </b>
   <%= @account.amount %>
+  </h3>
 </p>
+</h3>
 
 <%= link_to 'Edit', edit_account_path(@account) %> |
 <%= link_to 'Back', :back %>
