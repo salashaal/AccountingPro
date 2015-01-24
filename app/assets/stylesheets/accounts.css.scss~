@@ -85,8 +85,8 @@ h1 {
 /** page structure **/
 #wrapper {
   display: block;
-  width: 850px;
-
+  width: 1000px;
+  height: 2000px;
   background: #eee;
   margin: 0 auto;
   padding: 10px 17px;
@@ -129,4 +129,6 @@ h1 {
 }
 #keywords tbody tr td.lalign {
   text-align: left;
+border: 1px dotted #ddd;
+width: 180px;
 }

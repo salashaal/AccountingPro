@@ -1,6 +1,6 @@
 
 <div id="wrapper">
-<h1><%= link_to 'Balance Sheet', accounts_path %></h1>
+<h1>Balance Sheet</h1>
 
 <%= link_to 'New Account', new_account_path %>&nbsp
 <%= link_to 'New Transaction', new_transaction_path %>&nbsp
@@ -16,9 +16,10 @@
   <tr>
     <th><span style="float:left;font-weight:bold;">Name</span></th>
     <th><span style="float:left;font-weight:bold;">Type</span></th>
-    <th><span style="float:left;font-weight:bold;">Amount</span></th>
+    <th><span style="float:left;font-weight:bold;">Value</span></th>
   </tr>
 
+<%total=0%>
 <% @accounts.each do |account| %>
   <tr>
     <td class="lalign"><%= account.name %></td>
@@ -27,7 +28,14 @@
     <td class="lalign"><%= link_to 'Show', account %></td>
     <td class="lalign"><%= link_to 'Edit', edit_account_path(account) %></td>
   </tr>
+<%total=total+account.amount%>
 <% end %>
+<tr>
+<td class="lalign"><%= account.name %></td>
+    <td style="float:left;font-weight:bold;">Total</td>
+    <td class="lalign"><%=total %></td>
+  </tr>
+
 </table>
 
 
