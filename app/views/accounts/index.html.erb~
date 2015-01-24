@@ -1,10 +1,10 @@
-
+<h1>Accounting Pro</h1>
 <div id="wrapper">
 <h1>Balance Sheet</h1>
 
-<%= link_to 'New Account', new_account_path %>&nbsp
-<%= link_to 'New Transaction', new_transaction_path %>&nbsp
-<%= link_to 'Transaction Log', transactions_path %>&nbsp
+<%= link_to 'New Account', new_account_path %>&nbsp|&nbsp
+<%= link_to 'New Transaction', new_transaction_path %>&nbsp|&nbsp
+<%= link_to 'Transaction Log', transactions_path %>
 <br/>
 <br/>
 <br/>
@@ -19,7 +19,6 @@
     <th><span style="float:left;font-weight:bold;">Value</span></th>
   </tr>
 
-<%total=0%>
 <% @accounts.each do |account| %>
   <tr>
     <td class="lalign"><%= account.name %></td>
@@ -28,14 +27,7 @@
     <td class="lalign"><%= link_to 'Show', account %></td>
     <td class="lalign"><%= link_to 'Edit', edit_account_path(account) %></td>
   </tr>
-<%total=total+account.amount%>
 <% end %>
-<tr>
-<td class="lalign"><%= account.name %></td>
-    <td style="float:left;font-weight:bold;">Total</td>
-    <td class="lalign"><%=total %></td>
-  </tr>
-
 </table>
 
 

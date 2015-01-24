@@ -76,10 +76,23 @@ h1 {
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: center;
+  color: #ddd;
+  background: #365DA0;
+-webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
+}
+
+h2 {
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 3.6em;
+  line-height: 1.7em;
+  margin-bottom: 10px;
+  text-align: center;
   color: #365DA0;
   background: #ddd;
 -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
 }
+
 
 
 /** page structure **/
@@ -130,5 +143,5 @@ h1 {
 #keywords tbody tr td.lalign {
   text-align: left;
 border: 1px dotted #ddd;
-width: 180px;
+width: 150px;
 }

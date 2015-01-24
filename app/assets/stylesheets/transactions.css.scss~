@@ -74,7 +74,19 @@ h1 {
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: center;
-  color: #146;
+  color: #ddd;
+  background: #365DA0;
+-webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
+}
+
+h2 {
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 3.6em;
+  line-height: 1.7em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #365DA0;
   background: #ddd;
 -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
 }
@@ -84,7 +96,7 @@ h1 {
 #wrapper {
   display: block;
   width: 1000px;
-
+  height: 2000px;
   background: #eee;
   margin: 0 auto;
   padding: 10px 17px;
