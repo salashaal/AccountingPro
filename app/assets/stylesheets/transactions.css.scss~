@@ -74,7 +74,7 @@ h1 {
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: center;
-  color: #365DA0;
+  color: #146;
   background: #ddd;
 -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
 }
@@ -84,7 +84,7 @@ h1 {
 #wrapper {
   display: block;
   width: 1000px;
-  height: 2000px;
+
   background: #eee;
   margin: 0 auto;
   padding: 10px 17px;

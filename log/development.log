@@ -9343,3 +9343,2911 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:09:36 -0400
 Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 29.2ms (Views: 28.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Served asset /accounts.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:10:56 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:10:57 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (19.8ms)
+  Rendered transactions/new.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 46.4ms (Views: 26.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /scaffolds.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /transactions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:11:03 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.6ms)[0m  SELECT "transactions".* FROM "transactions" 
+  Rendered transactions/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 25.7ms (Views: 22.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:12:05 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:12:14 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 32.8ms (Views: 22.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:12:14 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:12:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:12:15 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:15 -0400
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:15 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:12:15 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:12:15 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:16:33 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (2.6ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (14.2ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled accounts.css  (81ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 210.3ms (Views: 196.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:16:34 -0400
+Served asset /accounts.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:16:34 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:16:34 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:16:34 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:16:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:16:34 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:16:34 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:16:35 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (13.6ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (60ms)  (pid 5080)
+Compiled application.css  (8ms)  (pid 5080)
+Completed 200 OK in 154.9ms (Views: 153.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /transactions.css - 200 OK (30ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /accounts.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:17:03 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (110.6ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled accounts.css  (41ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 212.6ms (Views: 197.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Served asset /accounts.css - 200 OK (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:36 -0400
+Served asset /transactions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:17:37 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (19.1ms)
+  Rendered accounts/new.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 35.2ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:39 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:17:40 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:17:44 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 36.6ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:44 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:45 -0400
+Served asset /jquery.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:45 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:45 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:45 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:17:45 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:17:47 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (1.8ms)
+  Rendered transactions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 30.3ms (Views: 28.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:47 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:48 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:48 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:48 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:48 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:48 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:17:48 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:17:50 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33.4ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:50 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:50 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:50 -0400
+Served asset /transactions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:51 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:51 -0400
+Served asset /accounts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:51 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:17:51 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (1.5ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 23.5ms (Views: 20.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:17:58 -0400
+Served asset /tree_bark.png - 304 Not Modified (3ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (2.6ms)
+  Rendered accounts/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 31.4ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /transactions.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:18:00 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 38.8ms (Views: 37.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:18:02 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (6.2ms)
+  Rendered transactions/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 27.8ms (Views: 25.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:18:04 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35.5ms (Views: 27.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /transactions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:18:06 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 40.6ms (Views: 31.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:18:57 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (8.4ms)
+  Rendered transactions/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 88.5ms (Views: 86.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /transactions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:19:00 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:19:01 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 38.3ms (Views: 36.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /scaffolds.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:19:02 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:19:04 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (12.8ms)
+  Rendered accounts/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 27.7ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:19:05 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:19:06 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 35.9ms (Views: 26.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:19:07 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (6.4ms)
+  Rendered transactions/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 31.3ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:19:11 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:19:59 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.5ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (30.1ms)
+  Rendered transactions/new.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 62.4ms (Views: 55.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:59 -0400
+Served asset /accounts.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:59 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:19:59 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:59 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:19:59 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:00 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:20:00 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:20:03 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+  Rendered transactions/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32.6ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:20:04 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:20:11 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 37.9ms (Views: 29.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /transactions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:20:12 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (18.1ms)
+  Rendered transactions/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 42.7ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /transactions.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:20:22 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 37.4ms (Views: 36.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:20:37 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:22:14 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (6.7ms)
+  Rendered accounts/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 37.5ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /transactions.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:22:15 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 43.3ms (Views: 35.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:22:21 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (6.3ms)
+  Rendered transactions/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 39.9ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:22:23 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.0ms)[0m  SELECT "transactions".* FROM "transactions" 
+  Rendered transactions/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25.2ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /transactions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:22:26 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 32.1ms (Views: 30.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /transactions.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:22:31 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (22.0ms)
+  Rendered accounts/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 37.9ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:22:33 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 31.6ms (Views: 24.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /accounts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:22:36 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:23:17 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 67.2ms (Views: 66.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:23:18 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:23:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:23:18 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:23:18 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:23:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:23:18 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:23:18 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:23:26 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 35.6ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:51 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:24:52 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (6.7ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 26.5ms (Views: 18.6ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:24:57 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 35.9ms (Views: 34.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Served asset /scaffolds.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:24:59 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:25:00 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (2.3ms)
+  Rendered accounts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 28.7ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /scaffolds.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:25:01 -0400
+Served asset /tree_bark.png - 304 Not Modified (2ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (5.5ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 44.4ms (Views: 37.7ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:03 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:25:04 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (1.9ms)
+  Rendered transactions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32.3ms (Views: 31.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:25:05 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 43.8ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:25:07 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:26:08 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 49.4ms (Views: 47.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:08 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:08 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:08 -0400
+Served asset /jquery.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:09 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:09 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:26:09 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24.7ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /transactions.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:26:15 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 45.3ms (Views: 43.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Served asset /accounts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:22 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:26:23 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26.9ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:26:25 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+  Rendered transactions/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 31.8ms (Views: 30.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:26:29 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 39.4ms (Views: 38.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /transactions.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:26:31 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+  Rendered transactions/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34.1ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /transactions.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:26:33 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (7.5ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (65ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 148.9ms (Views: 131.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Served asset /transactions.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:12 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:13 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:28:16 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 40.9ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:16 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:16 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:16 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:17 -0400
+Served asset /accounts.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:17 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27.0ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:19 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 58.4ms (Views: 45.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:21 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:28:22 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32.6ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:22 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:22 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:22 -0400
+Served asset /jquery.js - 304 Not Modified (56ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:23 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:23 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:23 -0400
+Served asset /tree_bark.png - 304 Not Modified (1ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (4.3ms)
+  Rendered transactions/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 44.0ms (Views: 42.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /transactions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:24 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:28:26 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 48.4ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /transactions.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:27 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+  Rendered transactions/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27.0ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:29 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:28:33 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (2.0ms)
+  Rendered transactions/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 44.7ms (Views: 41.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:34 -0400
+Served asset /tree_bark.png - 304 Not Modified (3ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:28:35 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (8.9ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 40.3ms (Views: 30.3ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:35 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:28:35 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:36 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:36 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:28:36 -0400
+Served asset /transactions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:28:36 -0400
+Served asset /tree_bark.png - 304 Not Modified (2ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (6.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (3.1ms)
+  Rendered transactions/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 46.8ms (Views: 39.3ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Served asset /accounts.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:43 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:29:44 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (2.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 21.0ms (Views: 17.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:29:46 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (5.5ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 37.4ms (Views: 30.8ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /scaffolds.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /accounts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:29:49 -0400
+Served asset /tree_bark.png - 304 Not Modified (3ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:29:52 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (12.9ms)
+  Rendered transactions/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 26.4ms (Views: 24.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:52 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:53 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:53 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:53 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:53 -0400
+Served asset /transactions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:29:53 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 25.7ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /transactions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:29:54 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:30:56 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 37.4ms (Views: 32.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:30:56 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:30:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:30:57 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:30:57 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:30:57 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:30:57 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:30:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:30:57 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (8.0ms)
+  Rendered transactions/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 41.0ms (Views: 39.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /transactions.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:00 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 42.1ms (Views: 40.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /scaffolds.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:04 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (7.0ms)
+  Rendered accounts/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 31.7ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /transactions.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:06 -0400
+Served asset /tree_bark.png - 304 Not Modified (21ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 42.3ms (Views: 40.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:08 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:31:10 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (25.0ms)
+  Rendered accounts/new.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 39.2ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:11 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 14:31:12 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 40.0ms (Views: 28.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:12 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:13 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:13 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:13 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:13 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:13 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:13 -0400
+Served asset /tree_bark.png - 304 Not Modified (1ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 28.7ms (Views: 27.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:16 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2015-01-24 14:31:21 -0400
+Processing by AccountsController#new as HTML
+  Rendered accounts/_form.html.erb (13.5ms)
+  Rendered accounts/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 45.8ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:21 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:21 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:21 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:21 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:22 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:22 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-24 14:31:23 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.3ms)[0m  SELECT "transactions".* FROM "transactions" 
+  Rendered transactions/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26.1ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:23 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:23 -0400
+Served asset /scaffolds.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 14:31:24 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:24 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:24 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 14:31:24 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree_bark.png" for 127.0.0.1 at 2015-01-24 14:31:24 -0400
+Served asset /tree_bark.png - 304 Not Modified (0ms)

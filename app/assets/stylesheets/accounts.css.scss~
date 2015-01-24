@@ -31,13 +31,15 @@ body {
 
 a:link { 
   color: #158;
+text-decoration: underline;
 }
 a:visited { 
-  color: #156;
+  color: #146;
 }
 a:hover { 
-  color: #CCCCCC;
+  color: #555555;
 background-color: transparent;
+text-decoration: overline;
 }
 a:active { 
   color: #333333;
@@ -84,7 +86,7 @@ h1 {
 #wrapper {
   display: block;
   width: 850px;
-  height: 1000px;
+
   background: #eee;
   margin: 0 auto;
   padding: 10px 17px;
