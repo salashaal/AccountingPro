@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AccPro</title>
+  <title>Accounting</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -9,11 +9,7 @@
 </head>
 <body>
 
-    <main role="main">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
-    </main>
-
+<%= yield %>
 
 </body>
 </html>

@@ -2,8 +2,9 @@
 <div id="wrapper">
 <h1><%= link_to 'Balance Sheet', accounts_path %></h1>
 
-<%= link_to 'New Account', new_account_path %>
+<h1><%= link_to 'New Account', new_account_path %></h1>
 <%= link_to 'New Transaction', new_transaction_path %>
+<br/>
 <br/>
 <br/>
 

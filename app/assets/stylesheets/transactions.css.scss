@@ -22,7 +22,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html { overflow-y: scroll; }
 body { 
   background: #eee url('tree_bark.png');
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1;
   color: #585858;
@@ -30,9 +29,21 @@ body {
   padding-bottom: 55px;
 }
 
-::selection { background: #5f74a0; color: #fff; }
-::-moz-selection { background: #5f74a0; color: #fff; }
-::-webkit-selection { background: #5f74a0; color: #fff; }
+a:link { 
+  color: #158;
+text-decoration: underline;
+}
+a:visited { 
+  color: #146;
+}
+a:hover { 
+  color: #555555;
+background-color: transparent;
+text-decoration: overline;
+}
+a:active { 
+  color: #333333;
+}
 
 br { display: block; line-height: 1.6em; } 
 
@@ -57,12 +68,15 @@ table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
 
 h1 { 
-  font-family: 'Amarante', Tahoma, sans-serif;
+  font-family: 'Tahoma';
   font-weight: bold;
-  font-size: 3.6em;
+  font-size: 4.6em;
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: center;
+  color: #146;
+  background: #ddd;
+-webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
 }
 
 
@@ -70,7 +84,7 @@ h1 {
 #wrapper {
   display: block;
   width: 1000px;
-height: 2000px;
+  height: 2000px;
   background: #eee;
   margin: 0 auto;
   padding: 10px 17px;
@@ -103,16 +117,9 @@ height: 2000px;
   background: #acc8dd;
 }
 
-#keywords thead tr th.headerSortUp span {
-  background-image: url('http://i.imgur.com/SP99ZPJ.png');
-}
-#keywords thead tr th.headerSortDown span {
-  background-image: url('http://i.imgur.com/RkA9MBo.png');
-}
-
 
 #keywords tbody tr { 
-  color: #555;
+  color: #146;
 }
 #keywords tbody tr td {
   text-align: center;

@@ -1,13 +1,13 @@
 <div id="wrapper">
 <h1>Transactions Log</h1>
 
-<%= link_to 'New Transaction', new_transaction_path %>
+<%= link_to 'New Transaction', new_transaction_path, {:style=>'color:#FFFFFF;', :class => "css_class"} %>
 <%= link_to 'Balance Sheet', accounts_path %>
 
 <br/>
 <br/>
 
-<table id="keywords" cellspacing="0" cellpadding="0">
+<table id="keywords" cellspacing="1" cellpadding="1">
   <tr>
     <th><span>To/From</span></th>
     <th><span>First Account</span></th>
