@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import url('http://fonts.googleapis.com/css?family=Amarante');
+@import url('http://fonts.googleapis.com/css?family=Tangerine');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -21,7 +21,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 html { overflow-y: scroll; }
 body { 
-  background: #eee url('tree_bark.png');
+  background: #eee url('45degreee_fabric_@2X.png');
   font-size: 100%;
   line-height: 1;
   color: #585858;
@@ -70,7 +70,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
 
 h1 { 
-  font-family: 'Tahoma';
+  font-family: 'Tangerine', serif;
+  text-shadow: 2px 2px 2px #aaa;
   font-weight: bold;
   font-size: 4em;
   line-height: 1.7em;
@@ -82,7 +83,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'Tahoma';
+  font-family: 'Tangerine', serif;
+  text-shadow: 2px 2px 2px #aaa;
   font-weight: bold;
   font-size: 3em;
   line-height: 1.7em;

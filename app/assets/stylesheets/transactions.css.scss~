@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import url('http://fonts.googleapis.com/css?family=Amarante');
+@import url('http://fonts.googleapis.com/css?family=Tangerine');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -68,9 +68,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 img { border: 0; max-width: 100%; }
 
 h1 { 
-  font-family: 'Tahoma';
-  font-weight: bold;
-  font-size: 4em;
+  font-family: 'Tangerine', serif;
+  text-shadow: 2px 2px 2px #aaa;
+  font-weight: normal;
+  font-size: 4.6em;
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: left;
@@ -80,9 +81,10 @@ h1 {
 }
 
 h2 {
-  font-family: 'Tahoma';
+  font-family: 'Tangerine', serif;
+  text-shadow: 2px 2px 2px #aaa;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3.6em;
   line-height: 1.7em;
   margin-bottom: 10px;
   text-align: center;
@@ -110,7 +112,7 @@ h3 {
   background: #eee;
   margin: 0 auto;
   padding: 12px 12px;
-  -webkit-box-shadow: 1px 1px 1px 1px rgba(0.3,0.3,0.3,0.3);
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0.3,0.3,0.3,0.3);
 }
 
 #keywords {
