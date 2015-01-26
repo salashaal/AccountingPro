@@ -10,7 +10,6 @@ Background: accounts have been added to database
   | name                 | accounttype | amount       |
   | Cash                 | Asset       | 0            |
   | Bank                 | Asset       | 0            |
-  | Equipment            | Asset       | 0            |
   | Accounts Receivable  | Asset       | 0            |
   | Accounts Payable     | Liability   | 0            |
   | Debt                 | Liability   | 0            |
@@ -26,7 +25,7 @@ Scenario: create new account
   When I fill in the following:
   | account_name         | Test        |
   | account_amount       | 0           |
-  When I select "Asset" from "account_accounttype"
+  When I select "Asset" from "account accounttype"
   When I press "Create Account"
   Then I should be on the AccPro home page
   Then I should see "Test"
