@@ -28191,3 +28191,55 @@ Connecting to database specified by database.yml
   [1m[36m (3.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150114162832')[0m
   [1m[35m (4.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150116092245')
 >>>>>>> a19585b69a93c9348d3275b61ba409413089cf25
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-28 19:58:46 -0400
+Connecting to database specified by database.yml
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (8.0ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0xacf35b4>
+Compiled accounts.css  (124ms)  (pid 2803)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/scaffolds.css.scssc: can't dump anonymous class #<Class:0xacf35b4>
+Compiled scaffolds.css  (12ms)  (pid 2803)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xacf35b4>
+Compiled transactions.css  (51ms)  (pid 2803)
+Compiled application.css  (249ms)  (pid 2803)
+Compiled jquery.js  (15ms)  (pid 2803)
+Compiled jquery_ujs.js  (0ms)  (pid 2803)
+Compiled accounts.js  (227ms)  (pid 2803)
+Compiled transactions.js  (2ms)  (pid 2803)
+Compiled application.js  (387ms)  (pid 2803)
+Completed 200 OK in 924.7ms (Views: 771.4ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /accounts.css - 304 Not Modified (128ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /scaffolds.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /transactions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /accounts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /transactions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-28 19:58:49 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (18ms)
