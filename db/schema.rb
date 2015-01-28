@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150117203000) do
+ActiveRecord::Schema.define(:version => 20150128003804) do
 
   create_table "accounts", :force => true do |t|
     t.string   "name"
@@ -26,9 +26,7 @@ ActiveRecord::Schema.define(:version => 20150117203000) do
     t.datetime "updated_at",        :null => false
     t.integer  "amount"
     t.integer  "first_account_id"
-    t.string   "first_direction"
     t.integer  "second_account_id"
-    t.string   "second_direction"
   end
 
 end

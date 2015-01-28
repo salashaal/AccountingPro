@@ -24511,3 +24511,2149 @@ Served asset /transactions.js - 304 Not Modified (0ms)
 
 Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 20:14:58 -0400
 Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-24 20:17:13 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (3.0ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled accounts.css  (108ms)  (pid 5080)
+Compiled application.css  (0ms)  (pid 5080)
+Completed 200 OK in 203.4ms (Views: 201.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /accounts.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-24 20:17:14 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (52.2ms)
+Completed 200 OK in 92.4ms (Views: 64.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Served asset /transactions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:36:52 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:36:53 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 36.5ms (Views: 25.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:37:30 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 54.8ms (Views: 39.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /accounts.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /scaffolds.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:38:54 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  Rendered transactions/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 33.6ms (Views: 17.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:38:58 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:39:00 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 44.3ms (Views: 42.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:00 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:00 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:01 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:01 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (92ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:01 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:01 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:39:01 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (2ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-25 09:39:03 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (11.7ms)
+  Rendered transactions/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 57.3ms (Views: 46.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:03 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:03 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:04 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:04 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:04 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:04 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:39:04 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:39:08 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 36.4ms (Views: 33.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:08 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:09 -0400
+Served asset /scaffolds.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:09 -0400
+Served asset /transactions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:09 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:09 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:09 -0400
+Served asset /transactions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:39:09 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (7ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 49.8ms (Views: 48.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:39:12 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:39:15 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 36.8ms (Views: 35.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:15 -0400
+Served asset /accounts.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:15 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:15 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:15 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:16 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:39:16 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-25 09:39:19 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.3ms)[0m  SELECT "transactions".* FROM "transactions" 
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (9.3ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  Rendered transactions/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 55.7ms (Views: 45.0ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:19 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:20 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:20 -0400
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:20 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:20 -0400
+Served asset /accounts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:39:20 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:39:21 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 115.0ms (Views: 113.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:21 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:39:22 -0400
+Served asset /transactions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:22 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:22 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:39:22 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:39:22 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:42:13 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (12.9ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled accounts.css  (76ms)  (pid 5080)
+Compiled application.css  (1ms)  (pid 5080)
+Completed 200 OK in 155.7ms (Views: 154.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /accounts.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /transactions.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /accounts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:42:14 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:42:16 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 38.9ms (Views: 26.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:16 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:16 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:17 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:17 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:17 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:42:17 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (12.2ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (33ms)  (pid 5080)
+Compiled application.css  (0ms)  (pid 5080)
+Completed 200 OK in 107.4ms (Views: 99.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Served asset /accounts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Served asset /transactions.css - 200 OK (18ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:51 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:42:52 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  [1m[35mAccount Load (3.7ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  Rendered transactions/index.html.erb within layouts/application (88.7ms)
+Completed 200 OK in 120.8ms (Views: 109.2ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /accounts.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /transactions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:42:56 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:42:59 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.4ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 45.9ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:59 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:59 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:42:59 -0400
+Served asset /transactions.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:42:59 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:43:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:43:00 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:43:00 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:43:00 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (1ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 59.8ms (Views: 57.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:43:05 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:44:16 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (6.6ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 38.3ms (Views: 30.4ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:16 -0400
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:16 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:16 -0400
+Served asset /transactions.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:44:16 -0400
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:44:16 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:44:17 -0400
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:44:17 -0400
+Served asset /transactions.js - 200 OK (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:44:17 -0400
+Served asset /45degreee_fabric_@2X.png - 200 OK (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-25 09:44:22 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  Rendered transactions/index.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 93.1ms (Views: 91.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:44:25 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 44.8ms (Views: 41.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-25 09:44:26 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  Rendered transactions/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 37.1ms (Views: 35.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:26 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:44:27 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 30.1ms (Views: 28.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:28 -0400
+Served asset /transactions.css - 304 Not Modified (1ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-25 09:44:29 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  Rendered transactions/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 41.0ms (Views: 35.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:29 -0400
+Served asset /accounts.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:29 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-25 09:44:31 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (1.9ms)
+  Rendered transactions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32.6ms (Views: 31.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:31 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:44:31 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-25 09:46:23 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (16.4ms)
+  Rendered transactions/new.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 58.6ms (Views: 57.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:46:24 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 39.9ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /transactions.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:46:29 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:46:35 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 52.8ms (Views: 40.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:46:36 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (2ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (90.0ms)
+Completed 200 OK in 127.4ms (Views: 126.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Served asset /transactions.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:46:39 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:46:40 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:47:05 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (25.1ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled accounts.css  (87ms)  (pid 5080)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0xb97a288>
+Compiled transactions.css  (75ms)  (pid 5080)
+Compiled application.css  (3ms)  (pid 5080)
+Completed 200 OK in 277.5ms (Views: 268.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:47:05 -0400
+Served asset /accounts.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:47:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:47:06 -0400
+Served asset /transactions.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:47:06 -0400
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:47:06 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:47:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:47:06 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:47:06 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:51:09 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 48.6ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:09 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:10 -0400
+Served asset /scaffolds.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:10 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:10 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:10 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:10 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:51:10 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (7ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.4ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 19.9ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:51:17 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-25 09:51:21 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.3ms)[0m  SELECT "transactions".* FROM "transactions" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  Rendered transactions/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 48.0ms (Views: 43.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:21 -0400
+Served asset /accounts.css - 304 Not Modified (102ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:22 -0400
+Served asset /transactions.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:22 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:22 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:22 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:51:22 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-25 09:51:25 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.4ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 42.2ms (Views: 39.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:25 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-25 09:51:25 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:25 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:26 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-25 09:51:26 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-25 09:51:26 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-27 20:04:20 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (1.5ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 123.2ms (Views: 120.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:04:20 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:04:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:04:20 -0400
+Served asset /transactions.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:04:20 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:04:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:04:21 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:04:21 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:04:21 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (10.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAccounts (20150114162436)
+Migrating to CreateTransactions (20150114162832)
+Migrating to AddAmountToTransactions (20150116092245)
+Migrating to AddDetailsToTransactions (20150117202424)
+Migrating to RemoveDetailsFromTransactions (20150117203000)
+Migrating to RemovefirstDirectionFromtransactions (20150128002402)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20150128002402')
+  [1m[36m (33.3ms)[0m  [1mcommit transaction[0m
+Migrating to RemovesecondDirectionFromtransactions (20150128002446)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20150128002446')[0m
+  [1m[35m (20.7ms)[0m  commit transaction
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (4.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAccounts (20150114162436)
+Migrating to CreateTransactions (20150114162832)
+Migrating to AddAmountToTransactions (20150116092245)
+Migrating to AddDetailsToTransactions (20150117202424)
+Migrating to RemoveDetailsFromTransactions (20150117203000)
+Migrating to RemovefirstDirectionFromtransactions (20150128002402)
+Migrating to RemovesecondDirectionFromtransactions (20150128002446)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (5.8ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (31.4ms)[0m  DROP TABLE "accounts"
+  [1m[36m (29.8ms)[0m  [1mCREATE TABLE "accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "accounttype" varchar(255), "amount" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (20.1ms)[0m  DROP TABLE "transactions"
+  [1m[36m (16.0ms)[0m  [1mCREATE TABLE "transactions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "amount" integer, "first_account_id" integer, "first_direction" varchar(255), "second_account_id" integer, "second_direction" varchar(255)) [0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (11.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (8.6ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 1000000], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Cash"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[35m (13.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 1000000], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Bank"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Buildings"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[35m (15.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Accounts Receivable"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[36m (10.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 0], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Accounts Payable"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[35m (11.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 100000], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Debit"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[36m (12.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Expense"], ["amount", 50000], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Management Expenses"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[35m (14.9ms)[0m  commit transaction
+  [1m[36m (2.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Expense"], ["amount", 50000], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Operations Expenses"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[36m (14.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (3.0ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Equity"], ["amount", 2000000], ["created_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00], ["name", "Capital"], ["updated_at", Wed, 28 Jan 2015 00:33:17 UTC +00:00]]
+  [1m[35m (13.4ms)[0m  commit transaction
+Connecting to database specified by database.yml
+  [1m[36m (2.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAccounts (20150114162436)
+Migrating to CreateTransactions (20150114162832)
+Migrating to AddAmountToTransactions (20150116092245)
+Migrating to AddDetailsToTransactions (20150117202424)
+Migrating to RemoveDetailsFromTransactions (20150117203000)
+Migrating to RemovefirstDirectionFromtransactions (20150128002402)
+Migrating to RemovesecondDirectionFromtransactions (20150128002446)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-27 20:34:25 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 81.4ms (Views: 29.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:25 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:25 -0400
+Served asset /jquery.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:25 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:25 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:26 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:34:26 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.4ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (7.9ms)
+  Rendered transactions/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 42.9ms (Views: 27.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Served asset /transactions.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:31 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:34:32 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started POST "/transactions" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Processing by TransactionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DFE5l2oZE4ish2K/l7fcSZqeWkvrCCtpQU2rglE7tMg=", "transaction"=>{"first_account_id"=>"1", "second_account_id"=>"2", "amount"=>"1000"}, "commit"=>"Create Transaction"}
+  [1m[36mAccount Load (8.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (10.3ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "first_direction", "second_account_id", "second_direction", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["amount", 1000], ["created_at", Wed, 28 Jan 2015 00:34:41 UTC +00:00], ["first_account_id", 1], ["first_direction", nil], ["second_account_id", 2], ["second_direction", nil], ["updated_at", Wed, 28 Jan 2015 00:34:41 UTC +00:00]]
+  [1m[35m (23.3ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/transactions
+Completed 302 Found in 55.3ms (ActiveRecord: 42.4ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  Rendered transactions/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 55.3ms (Views: 47.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Served asset /transactions.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Served asset /transactions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:34:42 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (7ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 56.6ms (Views: 45.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /jquery.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:34:48 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (2.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateAccounts (20150114162436)
+Migrating to CreateTransactions (20150114162832)
+Migrating to AddAmountToTransactions (20150116092245)
+Migrating to AddDetailsToTransactions (20150117202424)
+Migrating to RemoveDetailsFromTransactions (20150117203000)
+Migrating to RemovefirstDirectionFromtransactions (20150128002402)
+Migrating to RemovesecondDirectionFromtransactions (20150128002446)
+Migrating to RemoveFirstDirectionAndSecondDirectionFromTransactions (20150128003804)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (3.0ms)[0m  CREATE TEMPORARY TABLE "altered_transactions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "amount" integer, "first_account_id" integer, "first_direction" varchar(255), "second_account_id" integer, "second_direction" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "transactions"[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "altered_transactions" ("id","created_at","updated_at","amount","first_account_id","first_direction","second_account_id","second_direction") VALUES (1, '2015-01-28 00:34:41.283671', '2015-01-28 00:34:41.283671', 1000, 1, NULL, 2, NULL)
+  [1m[36m (1.7ms)[0m  [1mDROP TABLE "transactions"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "transactions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "amount" integer, "first_account_id" integer, "second_account_id" integer, "second_direction" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_transactions"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "transactions" ("id","created_at","updated_at","amount","first_account_id","second_account_id","second_direction") VALUES (1, '2015-01-28 00:34:41.283671', '2015-01-28 00:34:41.283671', 1000, 1, 2, NULL)
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "altered_transactions"[0m
+  [1m[35m (0.1ms)[0m  CREATE TEMPORARY TABLE "altered_transactions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "amount" integer, "first_account_id" integer, "second_account_id" integer, "second_direction" varchar(255)) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "transactions"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "altered_transactions" ("id","created_at","updated_at","amount","first_account_id","second_account_id","second_direction") VALUES (1, '2015-01-28 00:34:41.283671', '2015-01-28 00:34:41.283671', 1000, 1, 2, NULL)
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "transactions"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "transactions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "amount" integer, "first_account_id" integer, "second_account_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_transactions"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "transactions" ("id","created_at","updated_at","amount","first_account_id","second_account_id") VALUES (1, '2015-01-28 00:34:41.283671', '2015-01-28 00:34:41.283671', 1000, 1, 2)
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "altered_transactions"[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20150128003804')
+  [1m[36m (42.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (17.0ms)
+  Rendered transactions/new.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 78.5ms (Views: 40.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Served asset /accounts.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Served asset /scaffolds.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Served asset /accounts.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:03 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:39:04 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (30ms)
+
+
+Started POST "/transactions" for 127.0.0.1 at 2015-01-27 20:39:10 -0400
+Processing by TransactionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DFE5l2oZE4ish2K/l7fcSZqeWkvrCCtpQU2rglE7tMg=", "transaction"=>{"first_account_id"=>"1", "second_account_id"=>"2", "amount"=>"1000"}, "commit"=>"Create Transaction"}
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.5ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 1000], ["created_at", Wed, 28 Jan 2015 00:39:10 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Wed, 28 Jan 2015 00:39:10 UTC +00:00]]
+  [1m[36m (56.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/transactions
+Completed 302 Found in 91.0ms (ActiveRecord: 60.1ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-27 20:39:10 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (3.6ms)[0m  SELECT "transactions".* FROM "transactions" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  Rendered transactions/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 41.0ms (Views: 35.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /transactions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:39:11 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-27 20:39:13 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 50.9ms (Views: 43.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:39:14 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:42:16 -0400
+
+SyntaxError (/home/saasbook/AccountingPro/app/controllers/transactions_controller.rb:74: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.18) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.18) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.18) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.18) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__480849188__call__499951513__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/saasbook/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.3ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:42:46 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (2.5ms)
+  Rendered transactions/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 70.3ms (Views: 49.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:42:47 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:42:47 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:42:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:42:47 -0400
+Served asset /transactions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:42:47 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:42:47 -0400
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:42:47 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:42:50 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started POST "/transactions" for 127.0.0.1 at 2015-01-27 20:42:59 -0400
+Processing by TransactionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DFE5l2oZE4ish2K/l7fcSZqeWkvrCCtpQU2rglE7tMg=", "transaction"=>{"first_account_id"=>"1", "second_account_id"=>"2", "amount"=>"100"}, "commit"=>"Create Transaction"}
+  [1m[36mAccount Load (0.7ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+Completed 500 Internal Server Error in 12.5ms
+
+ArgumentError (wrong number of arguments (3 for 5)):
+  app/models/account.rb:4:in `validate_transaction'
+  app/controllers/transactions_controller.rb:43:in `create'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.1ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:53:00 -0400
+Processing by TransactionsController#new as HTML
+Completed 500 Internal Server Error in 19.2ms
+
+SyntaxError (/home/saasbook/AccountingPro/app/models/account.rb:28: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif (@first_account.accounttype == "Expense")
+         ^
+/home/saasbook/AccountingPro/app/models/account.rb:31: syntax error, unexpected keyword_elsif, expecting keyword_end
+    elsif (@first_account.accounttype == "Liability")
+         ^
+/home/saasbook/AccountingPro/app/models/account.rb:34: syntax error, unexpected keyword_elsif, expecting $end
+    elsif (@first_account.accounttype == "Equity")
+         ^):
+  app/controllers/transactions_controller.rb:17:in `new'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:55:27 -0400
+Processing by TransactionsController#new as HTML
+Completed 500 Internal Server Error in 93.4ms
+
+SyntaxError (/home/saasbook/AccountingPro/app/models/account.rb:57: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/transactions_controller.rb:17:in `new'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:58:27 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (14.5ms)
+  Rendered transactions/new.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 90.9ms (Views: 45.6ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:28 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:28 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:28 -0400
+Served asset /accounts.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:28 -0400
+Served asset /jquery.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:28 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:28 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:28 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:58:29 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (3ms)
+
+
+Started POST "/transactions" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Processing by TransactionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DFE5l2oZE4ish2K/l7fcSZqeWkvrCCtpQU2rglE7tMg=", "transaction"=>{"first_account_id"=>"1", "second_account_id"=>"2", "amount"=>"10000"}, "commit"=>"Create Transaction"}
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "accounts" SET "amount" = 990000, "updated_at" = '2015-01-28 00:58:39.284053' WHERE "accounts"."id" = 1[0m
+  [1m[35m (38.1ms)[0m  commit transaction
+  [1m[36mAccount Load (0.6ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "accounts" SET "amount" = 1010000, "updated_at" = '2015-01-28 00:58:39.326697' WHERE "accounts"."id" = 2[0m
+  [1m[35m (17.9ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 10000], ["created_at", Wed, 28 Jan 2015 00:58:39 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Wed, 28 Jan 2015 00:58:39 UTC +00:00]]
+  [1m[36m (14.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/transactions
+Completed 302 Found in 98.5ms (ActiveRecord: 73.4ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  Rendered transactions/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 52.6ms (Views: 35.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Served asset /scaffolds.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Served asset /jquery.js - 304 Not Modified (58ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:39 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:58:40 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-27 20:58:43 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (4.8ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered accounts/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 32.1ms (Views: 25.9ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:43 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:58:44 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:44 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:44 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:44 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:58:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:58:44 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-27 20:59:12 -0400
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.7ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered transactions/_form.html.erb (2.0ms)
+  Rendered transactions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 19.6ms (Views: 16.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:12 -0400
+Served asset /accounts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:13 -0400
+Served asset /scaffolds.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:13 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:13 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:13 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:13 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:59:13 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)
+
+
+Started POST "/transactions" for 127.0.0.1 at 2015-01-27 20:59:22 -0400
+Processing by TransactionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DFE5l2oZE4ish2K/l7fcSZqeWkvrCCtpQU2rglE7tMg=", "transaction"=>{"first_account_id"=>"2", "second_account_id"=>"1", "amount"=>"10000"}, "commit"=>"Create Transaction"}
+  [1m[36mAccount Load (4.7ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  UPDATE "accounts" SET "amount" = 1000000, "updated_at" = '2015-01-28 00:59:22.622487' WHERE "accounts"."id" = 2
+  [1m[36m (26.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  UPDATE "accounts" SET "amount" = 1000000, "updated_at" = '2015-01-28 00:59:22.651639' WHERE "accounts"."id" = 1
+  [1m[36m (47.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 10000], ["created_at", Wed, 28 Jan 2015 00:59:22 UTC +00:00], ["first_account_id", 2], ["second_account_id", 1], ["updated_at", Wed, 28 Jan 2015 00:59:22 UTC +00:00]]
+  [1m[35m (17.7ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/transactions
+Completed 302 Found in 111.8ms (ActiveRecord: 98.3ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-27 20:59:22 -0400
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  Rendered transactions/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 18.2ms (Views: 16.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:22 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:23 -0400
+Served asset /scaffolds.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:23 -0400
+Served asset /transactions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:23 -0400
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:23 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:23 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:59:23 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (3ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-27 20:59:25 -0400
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 44.2ms (Views: 40.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/45degreee_fabric_@2X.png" for 127.0.0.1 at 2015-01-27 20:59:26 -0400
+Served asset /45degreee_fabric_@2X.png - 304 Not Modified (0ms)

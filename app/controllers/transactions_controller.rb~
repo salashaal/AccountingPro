@@ -37,19 +37,11 @@ class TransactionsController < ApplicationController
    
     if (Account.find_by_id(params[:transaction][:first_account_id])==Account.find_by_id(params[:transaction][:second_account_id]))
         flash[:notice] = "From and To acccounts can't be the same!."
-redirect_to :back
+        redirect_to :back
 
-    else if ( ( (params[:transaction][:first_direction] == "From") and 
-        (Account.find_by_id(params[:transaction][:first_account_id]).amount.to_i < params[:transaction][:amount].to_i) ) or
-        ((params[:transaction][:second_direction] == "From") and 
-        (Account.find_by_id(params[:transaction][:second_account_id]).amount.to_i < params[:transaction][:amount].to_i)) )
-      flash[:notice] = "No enough money in your account."
-      redirect_to :back
     else
       @valid = Account.validate_transaction(params[:transaction][:first_account_id], 
-                                          params[:transaction][:first_direction], 
                                           params[:transaction][:second_account_id], 
-                                          params[:transaction][:second_direction], 
                                           params[:transaction][:amount])
     end
     if (@valid == true)
