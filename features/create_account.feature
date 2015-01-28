@@ -1,8 +1,8 @@
 Feature: create new account from the home page
  
   As a company owner
-  So that I can quickly create an account
-  I want to see the confirmation maessage on the accounts list page
+  So that I can create an account
+  I want to see the new account on the accounts list page
 
 Background: accounts have been added to database
 
@@ -10,12 +10,10 @@ Background: accounts have been added to database
   | name                 | accounttype | amount       |
   | Cash                 | Asset       | 0            |
   | Bank                 | Asset       | 0            |
-  | Equipment            | Asset       | 0            |
   | Accounts Receivable  | Asset       | 0            |
   | Accounts Payable     | Liability   | 0            |
   | Debt                 | Liability   | 0            |
   | Office Expenses      | Expense     | 0            |
-  | Project Expenses     | Expense     | 0            |
   | Capital              | Equity      | 0            |
   | Revenue              | Equity      | 0            |
 
