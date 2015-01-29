@@ -30,8 +30,8 @@
 <% end %>
  <tr>
     <td class="lalign"><span style="float:left;font-weight:bold;">Equity</span></th>
-    <td><span style="float:left;font-weight:bold;">-</span></th>
-    <td><span style="float:left;font-weight:bold;"><%= @equity%></span></th>
+    <td class="lalign"><span style="float:left;">Assets - Liabilities</span></th>
+    <td class="footer"><span style="float:left;font-weight:bold;"><%= @equity%></span></th>
 </tr>
 </table>
 

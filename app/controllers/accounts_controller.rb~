@@ -5,7 +5,12 @@ class AccountsController < ApplicationController
 
   def index
     @account_types = [["Asset", "Asset"], ["Liability", "Liability"], ["Expense", "Expense"], ["Capital", "Capital"]]
-  @allAccounts = Account.all
+    @allAccounts = Account.all
+    @asset = 0
+    @expense = 0
+    @liability = 0
+    
+
     
     if (params[:account_type] == nil or params[:account_type] == "")
       @accounts = Account.all

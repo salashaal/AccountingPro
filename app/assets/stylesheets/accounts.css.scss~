@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: 'Tangerine', serif;
+  font: arial;
   vertical-align: baseline;
   outline: none;
   -webkit-font-smoothing: antialiased;
@@ -157,4 +157,10 @@ h3 {
   text-align: left;
 border: 1px dotted #ddd;
 width: 150px;
+}
+
+#keywords tbody tr td.footer {
+  text-align: left;
+border: 2px dotted #ddd;
+width: 200px;
 }

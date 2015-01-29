@@ -29,7 +29,7 @@ class AccountsController < ApplicationController
       end
       end
 
-    @equity=@asset-@expense-@liability
+    @equity=@asset-@liability
     respond_with(@accounts, @equity)
   end
 

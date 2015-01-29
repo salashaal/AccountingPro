@@ -33289,3 +33289,549 @@ Served asset /accounts.js - 304 Not Modified (0ms)
 
 Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:15:23 -0400
 Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:36:29 -0400
+Connecting to database specified by database.yml
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 397.6ms (Views: 277.5ms | ActiveRecord: 22.7ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:36:31 -0400
+Served asset /accounts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:36:31 -0400
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:36:31 -0400
+Served asset /transactions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:36:31 -0400
+Served asset /jquery.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:36:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:36:31 -0400
+Served asset /accounts.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:36:31 -0400
+Served asset /transactions.js - 304 Not Modified (1ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:38:54 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.7ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 72.7ms (Views: 60.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:38:55 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:38:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:38:55 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:38:55 -0400
+Served asset /jquery.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:38:55 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:38:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:38:55 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.4ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 65.5ms (Views: 56.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Served asset /accounts.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Served asset /scaffolds.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Served asset /jquery.js - 304 Not Modified (84ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:39:23 -0400
+Served asset /transactions.js - 304 Not Modified (5ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:41:42 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (10.5ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x9a45ef8>
+Compiled accounts.css  (63ms)  (pid 5661)
+Compiled application.css  (1ms)  (pid 5661)
+Completed 200 OK in 129.6ms (Views: 114.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:41:42 -0400
+Served asset /accounts.css - 200 OK (10ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:41:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:41:43 -0400
+Served asset /jquery.js - 304 Not Modified (34ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:41:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:41:43 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:41:43 -0400
+Served asset /accounts.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:41:43 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (7.8ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 72.1ms (Views: 54.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Served asset /transactions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:08 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (10.0ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x9a45ef8>
+Compiled accounts.css  (30ms)  (pid 5661)
+Compiled application.css  (0ms)  (pid 5661)
+Completed 200 OK in 144.9ms (Views: 136.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Served asset /accounts.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Served asset /transactions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Served asset /jquery.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:44 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:42:54 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (15.7ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x9a45ef8>
+Compiled accounts.css  (49ms)  (pid 5661)
+Compiled application.css  (0ms)  (pid 5661)
+Completed 200 OK in 116.1ms (Views: 114.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:54 -0400
+Served asset /accounts.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:54 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:42:54 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:54 -0400
+Served asset /jquery.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:54 -0400
+Served asset /accounts.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:42:55 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:43:07 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (10.9ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x9a45ef8>
+Compiled accounts.css  (47ms)  (pid 5661)
+Compiled application.css  (1ms)  (pid 5661)
+Completed 200 OK in 132.0ms (Views: 100.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:43:07 -0400
+Served asset /accounts.css - 200 OK (24ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:43:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:43:08 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:08 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:08 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:08 -0400
+Served asset /transactions.js - 304 Not Modified (14ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (3.2ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x9a45ef8>
+Compiled accounts.css  (35ms)  (pid 5661)
+Compiled application.css  (0ms)  (pid 5661)
+Completed 200 OK in 68.1ms (Views: 65.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Served asset /accounts.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:43:35 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (3.7ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (23.0ms)[0m  DROP TABLE "accounts"
+  [1m[36m (7.0ms)[0m  [1mCREATE TABLE "accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "accounttype" varchar(255), "amount" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (6.9ms)[0m  DROP TABLE "transactions"
+  [1m[36m (11.7ms)[0m  [1mCREATE TABLE "transactions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "amount" integer, "first_account_id" integer, "second_account_id" integer) [0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (7.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 1000000], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Cash"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[35m (13.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 2000000], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Bank"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[36m (9.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Buildings"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[35m (8.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Accounts Receivable"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[36m (9.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 1000000], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Accounts Payable"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 100000], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Debit"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Expense"], ["amount", 0], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Management Expenses"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[35m (9.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Expense"], ["amount", 0], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Operations Expenses"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 2000000], ["created_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00], ["name", "Capital"], ["updated_at", Thu, 29 Jan 2015 15:49:45 UTC +00:00]]
+  [1m[35m (7.7ms)[0m  commit transaction
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:49:52 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (7.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (5.8ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (9.9ms)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x9a45ef8>
+Compiled accounts.css  (67ms)  (pid 5661)
+Compiled application.css  (1ms)  (pid 5661)
+Completed 200 OK in 182.7ms (Views: 162.6ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:49:53 -0400
+Served asset /accounts.css - 200 OK (28ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:49:53 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:49:53 -0400
+Served asset /accounts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:49:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:49:53 -0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:49:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:49:53 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/transactions/new" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Processing by TransactionsController#new as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/_form.html.erb (6.5ms)
+  Rendered transactions/new.html.erb within layouts/application (60.9ms)
+Completed 200 OK in 83.7ms (Views: 73.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:35 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started POST "/transactions" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Processing by TransactionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DFE5l2oZE4ish2K/l7fcSZqeWkvrCCtpQU2rglE7tMg=", "transaction"=>{"first_account_id"=>"1", "second_account_id"=>"7", "amount"=>"50000"}, "commit"=>"Create Transaction"}
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 7 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mUPDATE "accounts" SET "amount" = 950000, "updated_at" = '2015-01-29 15:50:43.283403' WHERE "accounts"."id" = 1[0m
+  [1m[35m (24.5ms)[0m  commit transaction
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 7 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mUPDATE "accounts" SET "amount" = 50000, "updated_at" = '2015-01-29 15:50:43.325366' WHERE "accounts"."id" = 7[0m
+  [1m[35m (14.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.3ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 50000], ["created_at", Thu, 29 Jan 2015 15:50:43 UTC +00:00], ["first_account_id", 1], ["second_account_id", 7], ["updated_at", Thu, 29 Jan 2015 15:50:43 UTC +00:00]]
+  [1m[36m (13.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://0.0.0.0:3000/transactions
+Completed 302 Found in 176.1ms (ActiveRecord: 57.9ms)
+
+
+Started GET "/transactions" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 7 LIMIT 1
+  Rendered transactions/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 15.4ms (Views: 13.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Served asset /transactions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:43 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.9ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+  Rendered accounts/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 40.8ms (Views: 19.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/transactions.css?body=1" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Served asset /transactions.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Served asset /accounts.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/transactions.js?body=1" for 127.0.0.1 at 2015-01-29 11:50:45 -0400
+Served asset /transactions.js - 304 Not Modified (0ms)
