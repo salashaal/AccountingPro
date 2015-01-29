@@ -7,7 +7,7 @@ ACCOUNTS  = [["Cash", "Asset", 1000000],
 ["Debit", "Liability", 100000],
 ["Management Expenses", "Expense", 50000],
 ["Operations Expenses", "Expense", 50000],
-["Capital", "Equity", 2000000]]
+["Capital", "Asset", 2000000]]
 
 ACCOUNTS.each do |account|
    Account.create(name: account[0], accounttype: account[1], amount: account[2])

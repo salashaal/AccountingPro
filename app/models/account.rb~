@@ -5,7 +5,6 @@ class Account < ActiveRecord::Base
     @asset = 0
     @expense = 0
     @liability = 0
-    @equity = 0
     @accounts = Account.all
     @first_account = self.find_by_id(account_1)
     @second_account = self.find_by_id(account_2)
@@ -17,8 +16,6 @@ class Account < ActiveRecord::Base
         @expense += account.amount.to_i
       elsif (account.accounttype == "Liability")
         @liability += account.amount.to_i
-      elsif (account.accounttype == "Equity")
-        @equity += account.amount.to_i
       end
     end
 
@@ -28,8 +25,6 @@ class Account < ActiveRecord::Base
         @expense -= amount.to_i
     elsif (@first_account.accounttype == "Liability")
         @liability -= amount.to_i
-    elsif (@first_account.accounttype == "Equity")
-        @equity -= amount.to_i
     end
 
     if (@second_account.accounttype == "Asset")
@@ -38,13 +33,12 @@ class Account < ActiveRecord::Base
         @expense += amount.to_i
     elsif (@second_account.accounttype == "Liability")
         @liability += amount.to_i
-    elsif (@second_account.accounttype == "Equity")
-        @equity += amount.to_i
     end
 
-    if ( (@asset + @expense - @liability - @equity) == 0)
+    @Equity= (@asset - @expense - @liability)
+
+    if ( (@asset - @expense - @liability - @equity) == 0 )
         Account.find_by_id(account_1).update_attributes(:amount => (@first_account.amount.to_i - amount.to_i))
-      end
 
         Account.find_by_id(account_2).update_attributes(:amount => (amount.to_i + @second_account.amount.to_i))
 

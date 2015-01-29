@@ -4,7 +4,8 @@ class AccountsController < ApplicationController
   respond_to :html
 
   def index
-    @account_types = [["Asset", "Asset"], ["Liability", "Liability"], ["Expense", "Expense"], ["Equity", "Equity"]]
+    @account_types = [["Asset", "Asset"], ["Liability", "Liability"], ["Expense", "Expense"], ["Capital", "Capital"]]
+  @allAccounts = Account.all
     
     if (params[:account_type] == nil or params[:account_type] == "")
       @accounts = Account.all
@@ -12,7 +13,19 @@ class AccountsController < ApplicationController
       @accounts = Account.find_all_by_accounttype(params[:account_type])
       @selected = params[:account_type]
     end
-    respond_with(@accounts)
+
+   @allAccounts.each do |account|
+      if (account.accounttype == "Asset")
+        @asset += account.amount.to_i
+      elsif (account.accounttype == "Expense")
+        @expense += account.amount.to_i
+      elsif (account.accounttype == "Liability")
+        @liability += account.amount.to_i
+      end
+      end
+
+    @equity=@asset-@expense-@liability
+    respond_with(@accounts, @equity)
   end
 
   def show
@@ -27,12 +40,13 @@ class AccountsController < ApplicationController
   end
 
   def new
-    @account_types = [["Asset", "Asset"], ["Liability", "Liability"], ["Expense", "Expense"], ["Equity", "Equity"]]
+    @account_types = [["Asset", "Asset"], ["Liability", "Liability"], ["Expense", "Expense"]]
     @account = Account.new
     respond_with(@account)
   end
 
   def edit
+    @account_types = [["Asset", "Asset"], ["Liability", "Liability"], ["Expense", "Expense"], ["Capital", "Capital"]]
     @account = Account.find_by_id(params[:id])
   end
 
