@@ -1,0 +1,26 @@
+Connecting to database specified by database.yml
+Compiled jquery.js  (5ms)  (pid 2940)
+Compiled jquery_ujs.js  (0ms)  (pid 2940)
+Compiled accounts.js  (75ms)  (pid 2940)
+Compiled transactions.js  (0ms)  (pid 2940)
+Compiled application.js  (129ms)  (pid 2940)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x87e0c90>
+Compiled accounts.css  (43ms)  (pid 2940)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/scaffolds.css.scssc: can't dump anonymous class #<Class:0x87e0c90>
+Compiled scaffolds.css  (7ms)  (pid 2940)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0x87e0c90>
+Compiled transactions.css  (35ms)  (pid 2940)
+Compiled application.css  (140ms)  (pid 2940)
+Connecting to database specified by database.yml
+Compiled jquery.js  (5ms)  (pid 2940)
+Compiled jquery_ujs.js  (0ms)  (pid 2940)
+Compiled accounts.js  (77ms)  (pid 2940)
+Compiled transactions.js  (0ms)  (pid 2940)
+Compiled application.js  (129ms)  (pid 2940)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x970e44c>
+Compiled accounts.css  (29ms)  (pid 2940)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/scaffolds.css.scssc: can't dump anonymous class #<Class:0x970e44c>
+Compiled scaffolds.css  (5ms)  (pid 2940)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0x970e44c>
+Compiled transactions.css  (21ms)  (pid 2940)
+Compiled application.css  (86ms)  (pid 2940)

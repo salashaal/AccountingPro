@@ -3,7 +3,9 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-b0c8d6f979453c7361c3d79fffecb05a.js
 application/index.js: application-b0c8d6f979453c7361c3d79fffecb05a.js
-application.css: application-ff005f9744a26f732e365eb22aac9e66.css
-application/index.css: application-ff005f9744a26f732e365eb22aac9e66.css
+45degreee_fabric_@2X.png: 45degreee_fabric_@2X-cdf08ada9f73324d18c0c202592375ea.png
+45degreee_fabric_@2X/index.png: 45degreee_fabric_@2X-cdf08ada9f73324d18c0c202592375ea.png
+application.css: application-e64f8e42716191d20dc9dabf963c3712.css
+application/index.css: application-e64f8e42716191d20dc9dabf963c3712.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
