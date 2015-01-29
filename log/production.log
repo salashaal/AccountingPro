@@ -24,3 +24,29 @@ Compiled scaffolds.css  (5ms)  (pid 2940)
 Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0x970e44c>
 Compiled transactions.css  (21ms)  (pid 2940)
 Compiled application.css  (86ms)  (pid 2940)
+Connecting to database specified by database.yml
+Compiled jquery.js  (4ms)  (pid 5962)
+Compiled jquery_ujs.js  (0ms)  (pid 5962)
+Compiled accounts.js  (74ms)  (pid 5962)
+Compiled transactions.js  (0ms)  (pid 5962)
+Compiled application.js  (126ms)  (pid 5962)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x978cfcc>
+Compiled accounts.css  (33ms)  (pid 5962)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/scaffolds.css.scssc: can't dump anonymous class #<Class:0x978cfcc>
+Compiled scaffolds.css  (7ms)  (pid 5962)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0x978cfcc>
+Compiled transactions.css  (22ms)  (pid 5962)
+Compiled application.css  (94ms)  (pid 5962)
+Connecting to database specified by database.yml
+Compiled jquery.js  (2ms)  (pid 5962)
+Compiled jquery_ujs.js  (0ms)  (pid 5962)
+Compiled accounts.js  (114ms)  (pid 5962)
+Compiled transactions.js  (0ms)  (pid 5962)
+Compiled application.js  (161ms)  (pid 5962)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/accounts.css.scssc: can't dump anonymous class #<Class:0x9f6fadc>
+Compiled accounts.css  (34ms)  (pid 5962)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/scaffolds.css.scssc: can't dump anonymous class #<Class:0x9f6fadc>
+Compiled scaffolds.css  (6ms)  (pid 5962)
+Warning. Error encountered while saving cache /home/saasbook/AccountingPro/tmp/cache/sass/1c5b2f1feec080b75b1b3381a30900eff377b93c/transactions.css.scssc: can't dump anonymous class #<Class:0x9f6fadc>
+Compiled transactions.css  (22ms)  (pid 5962)
+Compiled application.css  (99ms)  (pid 5962)
