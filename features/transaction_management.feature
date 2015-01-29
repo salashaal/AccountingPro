@@ -27,27 +27,15 @@ Scenario: create a valid transaction
   When I press "Create Transaction"
   Then I should be on the transactions page
 
-Scenario: try an invalid transaction from Bank to Capital
+Scenario: try an invalid transaction from Bank to Bank
   When I follow "New Transaction"
   Then I should be on the new transaction page
-  When I select "To" from "transaction_first_direction"
   When I select "Bank" from "transaction_first_account_id"
-  When I select "To" from "transaction_second_direction"
-  When I select "Capital" from "transaction_second_account_id"
+  When I select "Bank" from "transaction_second_account_id"
   When I fill in "transaction_amount" with "500"
   When I press "Create Transaction"
-  Then I should be on the transactions page
+  Then I should be on the new transaction page
 
-  When I follow "New Transaction"
-  Then I should be on the new transaction page
-  When I select "From" from "transaction_first_direction"
-  When I select "Bank" from "transaction_first_account_id"
-  When I select "To" from "transaction_second_direction"
-  When I select "Capital" from "transaction_second_account_id"
-  When I fill in "transaction_amount" with "100"
-  When I press "Create Transaction"
-  Then I should be on the new transaction page
-  Then I should see "Transaction is invalid, please use proper accounts."
 
 Scenario: make a mix of valid and invalid transactions
   When I follow "New Transaction"
