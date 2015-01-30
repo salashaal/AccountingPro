@@ -17,12 +17,6 @@ RSpec.describe Account, :type => :model do
       Account.validate_transaction(account1.id , account2.id , 100).should eq(true)
     end
 
-    it 'invalid add from Liability to Liability' do
-      account1 = FactoryGirl.create(:account, :name => "x", :accounttype => "Liability", :amount => 20)
-      account2 = FactoryGirl.create(:account, :name => "y", :accounttype => "Liability", :amount => 100)
-
-      Account.validate_transaction(account1.id , account2.id , 100).should eq(true)
-    end
   
   end
 end

@@ -98,6 +98,11 @@ RSpec.describe AccountsController, :type => :controller do
         post :create, {:account => invalid_attributes}, valid_session
         expect(assigns(:account)).to be_a_new(Account)
       end
+
+      it "re-renders the 'new' template" do
+        post :create, {:account => invalid_attributes}, valid_session
+        expect(response).to render_template("new")
+      end
     end
   end
 

@@ -48,3 +48,7 @@ RSpec.configure do |config|
   # https://relishapp.com/rspec/rspec-rails/docs
 
 end
+
+RSpec.configure do |config|
+  config.include FactoryGirl::Syntax::Methods
+end

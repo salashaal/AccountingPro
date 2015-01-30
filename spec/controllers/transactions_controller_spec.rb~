@@ -115,7 +115,7 @@ RSpec.describe TransactionsController, :type => :controller do
         account_double1.stub(:amount).and_return("100")
         account_double2 = double('Equity')
         account_double2.stub(:id).and_return(1)
-        account_double2.stub(:amount).and_return(2)
+        account_double2.stub(:amount).and_return("100")
         Account.should_receive("find_by_id").and_return(account_double1)
         #Account.should_receive(:find_by_id).and_return(account_double2)
         post :create, {:transaction => {:first_direction => "From", :first_account_id => account_double1.id, :second_direction => "To", :second_account_id => account_double2.id, :amount => 1000}}
