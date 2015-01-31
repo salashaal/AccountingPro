@@ -93,18 +93,12 @@ RSpec.describe AccountsController, :type => :controller do
       end
     end
 
-    describe "with invalid params" do
-      it "assigns a newly created but unsaved account as @account" do
-        post :create, {:account => invalid_attributes}, valid_session
-        expect(assigns(:account)).to be_a_new(Account)
-      end
-    end
+    
   end
 
   describe "PUT update" do
     describe "with valid params" do
       let(:new_attributes) {
-        #skip("Add a hash of attributes valid for your model")
         {:name => "New", :accounttype => "Equity", :amount => 0}
       }
 
@@ -112,7 +106,6 @@ RSpec.describe AccountsController, :type => :controller do
         account = Account.create! valid_attributes
         put :update, {:id => account.to_param, :account => new_attributes}, valid_session
         account.reload
-        #skip("Add assertions for updated state")
         expect(assigns(:account)).to eq(account)
       end
 
@@ -136,11 +129,6 @@ RSpec.describe AccountsController, :type => :controller do
         expect(assigns(:account)).to eq(account)
       end
 
-      it "re-renders the 'edit' template" do
-        account = Account.create! valid_attributes
-        put :update, {:id => account.to_param, :account => invalid_attributes}, valid_session
-        expect(response).to render_template("edit")
-      end
     end
   end
 

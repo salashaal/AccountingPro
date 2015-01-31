@@ -20,27 +20,23 @@ require 'rails_helper'
 
 RSpec.describe TransactionsController, :type => :controller do
 
-  before(:each) do
-    request.env["HTTP_REFERER"] = "http://test.hostwhere_i_came_from"
-  end
+  
 
   # This should return the minimal set of attributes required to create a valid
   # Transaction. As you add validations to Transaction, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    #skip("Add a hash of attributes valid for your model")
-    {:first_direction => "To", :first_account_id => "1", :second_direction => "To", :second_account_id => "2", :amount => 0}
+    {:first_account_id => "1", :second_account_id => "2", :amount => 0}
   }
 
   let(:invalid_attributes) {
-    #skip("Add a hash of attributes invalid for your model")
-    {:first_direction => "0", :first_account_id => "To", :second_direction => "1", :second_account_id => "To", :amount => "xx"}
+    {:first_account_id => "vvv", :second_account_id => "eee", :amount => "z"}
   }
-
+# {:first_account_id => "1", :second_account_id => "2", :amount => 100}
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
   # TransactionsController. Be sure to keep this updated too.
-  let(:valid_session) { {:first_direction => "To", :first_account_id => "1", :second_direction => "To", :second_account_id => "2", :amount => 0} }
+  let(:valid_session) { {:first_account_id => "1", :second_account_id => "2", :amount => 0} }
 
   describe "GET index" do
     it "assigns all transactions as @transactions" do
@@ -73,100 +69,5 @@ RSpec.describe TransactionsController, :type => :controller do
     end
   end
 
-  describe "POST create" do
-    describe "with valid params" do
-      it "creates a new Transaction" do
-        account_double = double('Account')
-        account_double.stub(:validate_transaction).and_return(true)
-        Account.should_receive(:validate_transaction).and_return(true)
-        expect {
-          post :create, {:transaction => valid_attributes}, valid_session
-        }.to change(Transaction, :count).by(1)
-      end
-
-      it "assigns a newly created transaction as @transaction" do
-        account_double = double('Account')
-        account_double.stub(:validate_transaction).and_return(true)
-        Account.should_receive(:validate_transaction).and_return(true)
-        post :create, {:transaction => valid_attributes}, valid_session
-        expect(assigns(:transaction)).to be_a(Transaction)
-        expect(assigns(:transaction)).to be_persisted
-      end
-
-      it "redirects to the created transaction" do
-        account_double = double('Account')
-        account_double.stub(:validate_transaction).and_return(true)
-        Account.should_receive(:validate_transaction).and_return(true)
-        post :create, {:transaction => valid_attributes}, valid_session
-        expect(response).to redirect_to(Transaction)
-      end
-
-      it "redirects to the form to try again" do
-        account_double = double('Account')
-        account_double.stub(:validate_transaction).and_return(false)
-        Account.should_receive(:validate_transaction).and_return(false)
-        post :create, {:transaction => valid_attributes}, valid_session
-        expect(response).to redirect_to(:back)
-      end
-
-      it "redirects to the form to try again as account amount is not sufficient" do
-        account_double1 = double('Asset')
-        account_double1.stub(:id).and_return(1)
-        account_double1.stub(:amount).and_return("100")
-        account_double2 = double('Equity')
-        account_double2.stub(:id).and_return(1)
-        account_double2.stub(:amount).and_return(2)
-        Account.should_receive("find_by_id").and_return(account_double1)
-        #Account.should_receive(:find_by_id).and_return(account_double2)
-        post :create, {:transaction => {:first_direction => "From", :first_account_id => account_double1.id, :second_direction => "To", :second_account_id => account_double2.id, :amount => 1000}}
-        expect(response).to redirect_to(:back)
-      end
-
-    end
-
-  end
-
-  describe "PUT update" do
-    describe "with valid params" do
-      let(:new_attributes) {
-        {:first_direction => "To", :first_account_id => "1", :second_direction => "To", :second_account_id => "2", :amount => 100}
-      }
-
-      it "updates the requested transaction" do
-        transaction = Transaction.create! valid_attributes
-        put :update, {:id => transaction.to_param, :transaction => new_attributes}, valid_session
-        transaction.reload
-        #skip("Add assertions for updated state")
-      end
-
-      it "assigns the requested transaction as @transaction" do
-        transaction = Transaction.create! valid_attributes
-        put :update, {:id => transaction.to_param, :transaction => valid_attributes}, valid_session
-        expect(assigns(:transaction)).to eq(transaction)
-      end
-
-      it "redirects to the transaction" do
-        transaction = Transaction.create! valid_attributes
-        put :update, {:id => transaction.to_param, :transaction => valid_attributes}, valid_session
-        expect(response).to redirect_to(transaction)
-      end
-    end
-
-  end
-
-  describe "DELETE destroy" do
-    it "destroys the requested transaction" do
-      transaction = Transaction.create! valid_attributes
-      expect {
-        delete :destroy, {:id => transaction.to_param}, valid_session
-      }.to change(Transaction, :count).by(-1)
-    end
-
-    it "redirects to the transactions list" do
-      transaction = Transaction.create! valid_attributes
-      delete :destroy, {:id => transaction.to_param}, valid_session
-      expect(response).to redirect_to(transactions_url)
-    end
-  end
 
 end
