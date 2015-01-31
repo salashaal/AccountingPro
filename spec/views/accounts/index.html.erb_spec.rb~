@@ -19,7 +19,7 @@ RSpec.describe "accounts/index", :type => :view do
   it "renders a list of accounts" do
     render
     assert_select "tr>td", :text => "Name".to_s, :count => 2
-    assert_select "tr>td", :text => "Type".to_s, :count => 2
+    assert_select "tr>tdstext => "Type".to_s, :count => 2
     assert_select "tr>td", :text => 1.to_s, :count => 2
   end
 end
