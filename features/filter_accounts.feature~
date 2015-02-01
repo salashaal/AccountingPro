@@ -22,7 +22,7 @@ Background: accounts have been added to database
   And I am on the AccPro home page
 
 Scenario: restrict to accounts with Asset type
-  When I select "Asset" from "account_form"
+  When I select "Asset" from "account_type"
   And I press "Filter"
   Then I should see "Cash"
   Then I should see "Bank"

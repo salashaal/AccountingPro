@@ -4,7 +4,7 @@ Feature: view the transaction log
   So that I can quickly view the transaction history
   I want to see all transactions between accounts ordered by date
 
-Background: transactions have been added to database
+Background: accounts have been added to database
 
   Given the following accounts exist:	
   | name                 | accounttype | amount       |

@@ -109,7 +109,6 @@ Scenario: make a mix of valid and invalid transactions
   When I fill in "transaction_amount" with "100"
   When I press "Create Transaction"
   Then I should be on the new transaction page
-  Then I should see "No enough money in your account."
   Then I should see "Transaction is invalid, please use proper accounts."
 
 
