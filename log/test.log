@@ -16642,3 +16642,1290 @@ Processing by TransactionsController#new as HTML
   Rendered transactions/new.html.erb within layouts/application (14.7ms)
 Completed 200 OK in 18.1ms (Views: 16.5ms | ActiveRecord: 0.2ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.6ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:22 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:39:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 100.0ms (Views: 97.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:22 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:39:22 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTransaction Load (0.5ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 10.4ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTransaction Load (0.1ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+Completed 200 OK in 15.1ms (Views: 2.3ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 6.8ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 3.6ms (ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 3.6ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 4.2ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 5.9ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"New", "accounttype"=>"Equity", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "accounts" SET "name" = 'New', "accounttype" = 'Equity', "updated_at" = '2015-02-01 14:39:23.492808' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 152.4ms (ActiveRecord: 0.0ms)
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 9.3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 5.0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"0", "accounttype"=>"0", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.0ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "accounts" SET "name" = '0', "accounttype" = '0', "updated_at" = '2015-02-01 14:39:23.705103' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 7.6ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "accounts" 
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "accounts" WHERE "accounts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 7.0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "accounts" WHERE "accounts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 6.7ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 4.8ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 6.5ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#new as HTML
+Completed 200 OK in 2.5ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = -100, "updated_at" = '2015-02-01 14:39:23.800264' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = 100, "updated_at" = '2015-02-01 14:39:23.805739' WHERE "accounts"."id" = 2
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mAccount Load (0.4ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "accounts" SET "amount" = 0, "updated_at" = '2015-02-01 14:39:23.837285' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:39:23.841074' WHERE "accounts"."id" = 2[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 20], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "x"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00], ["name", "y"], ["updated_at", Sun, 01 Feb 2015 14:39:23 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  UPDATE "accounts" SET "amount" = -80, "updated_at" = '2015-02-01 14:39:23.855365' WHERE "accounts"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:39:23.857647' WHERE "accounts"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.3ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:12 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:41:12 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#index as HTML
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" [0m
+  Rendered transactions/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83.6ms (Views: 81.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 6.7ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (1.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 9.0ms (Views: 2.9ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TransactionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTransaction Load (0.0ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 9.6ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (2.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (5.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 18.2ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 5.3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "accounts" 
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 21.0ms (ActiveRecord: 0.9ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "accounts" 
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 10.2ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 5.4ms (ActiveRecord: 0.8ms)
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+Completed 200 OK in 5.9ms (Views: 2.8ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:13 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "accounts" WHERE "accounts"."id" = ?  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 207.3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "accounts" 
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "accounts" WHERE "accounts"."id" = ?  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 7.6ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (4.8ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"New", "accounttype"=>"Equity", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mUPDATE "accounts" SET "name" = 'New', "accounttype" = 'Equity', "updated_at" = '2015-02-01 14:41:14.089565' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 19.1ms (ActiveRecord: 0.0ms)
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 12.3ms (ActiveRecord: 0.0ms)
+  [1m[35m (5.9ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 4.7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"0", "accounttype"=>"0", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "accounts" SET "name" = '0', "accounttype" = '0', "updated_at" = '2015-02-01 14:41:14.178760' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 6.1ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#new as HTML
+Completed 200 OK in 7.2ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = -100, "updated_at" = '2015-02-01 14:41:14.240535' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  UPDATE "accounts" SET "amount" = 100, "updated_at" = '2015-02-01 14:41:14.243716' WHERE "accounts"."id" = 2
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.8ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "accounts" SET "amount" = 0, "updated_at" = '2015-02-01 14:41:14.270911' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:41:14.273885' WHERE "accounts"."id" = 2[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 20], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "x"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00], ["name", "y"], ["updated_at", Sun, 01 Feb 2015 14:41:14 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = -80, "updated_at" = '2015-02-01 14:41:14.289962' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:41:14.292691' WHERE "accounts"."id" = 2
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (9.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "accounts" WHERE "accounts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 149.3ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "accounts" 
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "accounts" WHERE "accounts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 4.7ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.3ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 5.5ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"0", "accounttype"=>"0", "amount"=>"0"}, "id"=>"1"}
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "accounts" SET "name" = '0', "accounttype" = '0', "updated_at" = '2015-02-01 14:42:40.350648' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 11.9ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 4.3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"New", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "accounts" SET "name" = 'New', "updated_at" = '2015-02-01 14:42:40.386915' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 8.7ms (ActiveRecord: 0.0ms)
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 4.6ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 6.3ms (Views: 2.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+Completed 200 OK in 72.7ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#new as HTML
+Completed 200 OK in 2.6ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 4.2ms (ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "accounts" 
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 3.8ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "accounts" 
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 4.5ms (ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 18.0ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+Completed 200 OK in 4.6ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.9ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TransactionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTransaction Load (0.3ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 5.3ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TransactionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTransaction Load (0.1ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 7.9ms (Views: 3.8ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (4.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (4.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (2.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 20], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "x"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "y"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = -80, "updated_at" = '2015-02-01 14:42:40.965971' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:42:40.969566' WHERE "accounts"."id" = 2
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:42:40 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "accounts" SET "amount" = -100, "updated_at" = '2015-02-01 14:42:40.994610' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "accounts" SET "amount" = 100, "updated_at" = '2015-02-01 14:42:40.998298' WHERE "accounts"."id" = 2[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:42:41 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:42:41 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:42:41 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:42:41 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = 0, "updated_at" = '2015-02-01 14:42:41.017509' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:42:41.020643' WHERE "accounts"."id" = 2
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (10.5ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mTransaction Load (0.3ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  Rendered transactions/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86.8ms (Views: 73.8ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTransaction Load (0.0ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 5.0ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 3.6ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+Completed 200 OK in 3.4ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 5.5ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:48 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "accounts" 
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "accounts" WHERE "accounts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 99.6ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "accounts" WHERE "accounts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 4.0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 3.4ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "accounts" 
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 4.4ms (ActiveRecord: 0.6ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "accounts" 
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts
+Completed 302 Found in 4.7ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"New", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (1.0ms)[0m  [1mUPDATE "accounts" SET "name" = 'New', "updated_at" = '2015-02-01 14:43:49.168641' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 10.0ms (ActiveRecord: 0.0ms)
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 4.3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"0", "accounttype"=>"0", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "accounts" SET "name" = '0', "accounttype" = '0', "updated_at" = '2015-02-01 14:43:49.204278' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 5.9ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#index as HTML
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+Completed 200 OK in 5.0ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+Completed 200 OK in 5.5ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by AccountsController#new as HTML
+Completed 200 OK in 4.8ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 20], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "x"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "y"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = -80, "updated_at" = '2015-02-01 14:43:49.551702' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:43:49.554750' WHERE "accounts"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "accounts" SET "amount" = -100, "updated_at" = '2015-02-01 14:43:49.573305' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mUPDATE "accounts" SET "amount" = 100, "updated_at" = '2015-02-01 14:43:49.576236' WHERE "accounts"."id" = 2[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:43:49 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = 0, "updated_at" = '2015-02-01 14:43:49.589845' WHERE "accounts"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:43:49.595333' WHERE "accounts"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (63.8ms)[0m  [1mINSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by TransactionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTransaction Load (0.3ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered transactions/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 126.5ms (Views: 122.3ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by TransactionsController#new as HTML
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 5.6ms (Views: 1.5ms | ActiveRecord: 1.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TransactionsController#index as HTML
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" 
+Completed 200 OK in 4.3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "transactions" ("amount", "created_at", "first_account_id", "second_account_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00], ["first_account_id", 1], ["second_account_id", 2], ["updated_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by TransactionsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTransaction Load (0.2ms)[0m  SELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mTransaction Load (0.2ms)[0m  [1mSELECT "transactions".* FROM "transactions" WHERE "transactions"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 9.3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Type"], ["amount", 1], ["created_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00], ["name", "Name"], ["updated_at", Sun, 01 Feb 2015 14:44:58 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"0", "accounttype"=>"0", "amount"=>"0"}, "id"=>"1"}
+  [1m[35mAccount Load (0.3ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  UPDATE "accounts" SET "name" = '0', "accounttype" = '0', "updated_at" = '2015-02-01 14:44:59.047345' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 105.2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 11.3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#update as HTML
+  Parameters: {"account"=>{"name"=>"New", "accounttype"=>"Asset", "amount"=>"0"}, "id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "accounts" SET "name" = 'New', "updated_at" = '2015-02-01 14:44:59.182632' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts/1
+Completed 302 Found in 7.5ms (ActiveRecord: 0.0ms)
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 11.5ms (Views: 9.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by AccountsController#new as HTML
+Completed 200 OK in 2.8ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.2ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 9.5ms (ActiveRecord: 4.4ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 3.7ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "accounts" [0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"account"=>{"name"=>"Account", "accounttype"=>"Asset", "amount"=>"0"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/accounts
+Completed 302 Found in 5.0ms (ActiveRecord: 1.9ms)
+  [1m[36m (1.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by AccountsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 4.9ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Account"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by AccountsController#index as HTML
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.0ms)[0m  SELECT "accounts".* FROM "accounts" 
+Completed 200 OK in 3.7ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (1.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.2ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = 0, "updated_at" = '2015-02-01 14:44:59.380987' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:44:59.384191' WHERE "accounts"."id" = 2
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Asset"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "First"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 0], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "Second"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.2ms)[0m  SELECT "accounts".* FROM "accounts" 
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36mAccount Load (1.9ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "accounts" SET "amount" = -100, "updated_at" = '2015-02-01 14:44:59.399320' WHERE "accounts"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "accounts" SET "amount" = 100, "updated_at" = '2015-02-01 14:44:59.402146' WHERE "accounts"."id" = 2[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["accounttype", "Liability"], ["amount", 20], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "x"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "accounts" ("accounttype", "amount", "created_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["accounttype", "Liability"], ["amount", 100], ["created_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00], ["name", "y"], ["updated_at", Sun, 01 Feb 2015 14:44:59 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" [0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "accounts" SET "amount" = -80, "updated_at" = '2015-02-01 14:44:59.416927' WHERE "accounts"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "accounts" SET "amount" = 200, "updated_at" = '2015-02-01 14:44:59.420258' WHERE "accounts"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
