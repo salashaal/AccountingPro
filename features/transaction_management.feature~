@@ -1,4 +1,4 @@
-Feature: validate SUM(Assets) – SUM(Liabilities) = SUM(Equtiy) – Sum(Expenses)
+Feature: validate of the balance sheet parameters
  
   As a company owner
   So that I can quickly make transactions between accounts
